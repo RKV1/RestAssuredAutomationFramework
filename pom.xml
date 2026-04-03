@@ -111,6 +111,15 @@
     	<version>2.17.2</version>
     	<scope>compile</scope>
 	</dependency>
+	
+	<!-- added this so that jenkins can run using Java 17 -->
+	<dependency>
+   	 	<groupId>org.projectlombok</groupId>
+    	<artifactId>lombok</artifactId>
+    	<version>1.18.30</version> <!-- or latest -->
+    	<scope>provided</scope>
+	</dependency>
+
   </dependencies>
   
 </project>
